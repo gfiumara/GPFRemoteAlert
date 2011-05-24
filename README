@@ -1,0 +1,10 @@
+GPFRemoteAlert aims to implement a mechanism to display a UIAlertView at
+pre-determined points in your app (startup, launching a certain view, ...)
+without having to ship an update to the app.  A property list file is maintained
+on a remote server and is pulled to the app.  Future revisions may implement a
+database backend.
+
+For more information, contact:
+Greg Fiumara
+greg 'at' gregfiumara 'do-tizzle' com
+
