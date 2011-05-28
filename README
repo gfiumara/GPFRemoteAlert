@@ -3,3 +3,18 @@ pre-determined points in your app (startup, launching a certain view, ...)
 without having to ship an update to the app.  A property list file is maintained
 on a remote server and is pulled to the app.  Future revisions may implement a
 database backend.
+
+To get started using GPFRemoteAlert in your own project:
+  1. Create a property list with your own alerts, using example_alert.plist as
+     a guide.  Upload this property list to a remote host.
+  2. Import GPFRemoteAlert.[hm] into your project
+  3. Change the values of kGPFRemoteAlertMessagePlistName and
+     kGPFRemoteAlertServer in GPFRemoteAlert.h to point to the file you created
+     in step 1.
+  4. It's recommended that you download the alerts when your app starts by
+     adding an #import "GPFRemoteAlert.h" to your AppDelegate.m and 
+     [GPFRemoteAlert sharedRemoteAlert] to
+     application:didFinishLaunchingWithOptions:
+  5. Anywhere you wish to show alerts for a module, add
+     [[GPFRemoteAlert sharedRemoteAlert] displayAlertsForModule:@"module1"];
+
