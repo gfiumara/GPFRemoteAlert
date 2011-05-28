@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A05F921391546900226993 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A05F911391546900226993 /* UIKit.framework */; };
+		08A05F941391546900226993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A05F931391546900226993 /* Foundation.framework */; };
+		08A05F961391546900226993 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A05F951391546900226993 /* CoreGraphics.framework */; };
+		08A05F9C1391546900226993 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08A05F9A1391546900226993 /* InfoPlist.strings */; };
+		08A05F9F1391546900226993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A05F9E1391546900226993 /* main.m */; };
+		08A05FA21391546900226993 /* GPFRemoteAlertExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A05FA11391546900226993 /* GPFRemoteAlertExampleAppDelegate.m */; };
+		08A05FA51391546900226993 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A05FA31391546900226993 /* MainWindow.xib */; };
+		08A05FA81391546900226993 /* GPFRemoteAlertExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A05FA71391546900226993 /* GPFRemoteAlertExampleViewController.m */; };
+		08A05FAB1391546900226993 /* GPFRemoteAlertExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08A05FA91391546900226993 /* GPFRemoteAlertExampleViewController.xib */; };
+		08A05FB4139154A700226993 /* GPFRemoteAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A05FB3139154A700226993 /* GPFRemoteAlert.m */; };
+		08A05FB71391643700226993 /* example_alerts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08A05FB61391643700226993 /* example_alerts.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08A05F8D1391546800226993 /* GPFRemoteAlertExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPFRemoteAlertExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A05F911391546900226993 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08A05F931391546900226993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08A05F951391546900226993 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08A05F991391546900226993 /* GPFRemoteAlertExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPFRemoteAlertExample-Info.plist"; sourceTree = "<group>"; };
+		08A05F9B1391546900226993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08A05F9D1391546900226993 /* GPFRemoteAlertExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPFRemoteAlertExample-Prefix.pch"; sourceTree = "<group>"; };
+		08A05F9E1391546900226993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08A05FA01391546900226993 /* GPFRemoteAlertExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPFRemoteAlertExampleAppDelegate.h; sourceTree = "<group>"; };
+		08A05FA11391546900226993 /* GPFRemoteAlertExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFRemoteAlertExampleAppDelegate.m; sourceTree = "<group>"; };
+		08A05FA41391546900226993 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		08A05FA61391546900226993 /* GPFRemoteAlertExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPFRemoteAlertExampleViewController.h; sourceTree = "<group>"; };
+		08A05FA71391546900226993 /* GPFRemoteAlertExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFRemoteAlertExampleViewController.m; sourceTree = "<group>"; };
+		08A05FAA1391546900226993 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GPFRemoteAlertExampleViewController.xib; sourceTree = "<group>"; };
+		08A05FB2139154A700226993 /* GPFRemoteAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFRemoteAlert.h; sourceTree = "<group>"; };
+		08A05FB3139154A700226993 /* GPFRemoteAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFRemoteAlert.m; sourceTree = "<group>"; };
+		08A05FB61391643700226993 /* example_alerts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = example_alerts.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A05F8A1391546800226993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A05F921391546900226993 /* UIKit.framework in Frameworks */,
+				08A05F941391546900226993 /* Foundation.framework in Frameworks */,
+				08A05F961391546900226993 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A05F821391546800226993 = {
+			isa = PBXGroup;
+			children = (
+				08A05F971391546900226993 /* GPFRemoteAlertExample */,
+				08A05F901391546900226993 /* Frameworks */,
+				08A05F8E1391546800226993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08A05F8E1391546800226993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A05F8D1391546800226993 /* GPFRemoteAlertExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A05F901391546900226993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08A05F911391546900226993 /* UIKit.framework */,
+				08A05F931391546900226993 /* Foundation.framework */,
+				08A05F951391546900226993 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08A05F971391546900226993 /* GPFRemoteAlertExample */ = {
+			isa = PBXGroup;
+			children = (
+				08A05FB1139154A000226993 /* GPFRemoteAlert */,
+				08A05FA01391546900226993 /* GPFRemoteAlertExampleAppDelegate.h */,
+				08A05FA11391546900226993 /* GPFRemoteAlertExampleAppDelegate.m */,
+				08A05FA31391546900226993 /* MainWindow.xib */,
+				08A05FA61391546900226993 /* GPFRemoteAlertExampleViewController.h */,
+				08A05FA71391546900226993 /* GPFRemoteAlertExampleViewController.m */,
+				08A05FA91391546900226993 /* GPFRemoteAlertExampleViewController.xib */,
+				08A05F981391546900226993 /* Supporting Files */,
+			);
+			path = GPFRemoteAlertExample;
+			sourceTree = "<group>";
+		};
+		08A05F981391546900226993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A05FB61391643700226993 /* example_alerts.plist */,
+				08A05F991391546900226993 /* GPFRemoteAlertExample-Info.plist */,
+				08A05F9A1391546900226993 /* InfoPlist.strings */,
+				08A05F9D1391546900226993 /* GPFRemoteAlertExample-Prefix.pch */,
+				08A05F9E1391546900226993 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08A05FB1139154A000226993 /* GPFRemoteAlert */ = {
+			isa = PBXGroup;
+			children = (
+				08A05FB2139154A700226993 /* GPFRemoteAlert.h */,
+				08A05FB3139154A700226993 /* GPFRemoteAlert.m */,
+			);
+			name = GPFRemoteAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A05F8C1391546800226993 /* GPFRemoteAlertExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A05FAE1391546900226993 /* Build configuration list for PBXNativeTarget "GPFRemoteAlertExample" */;
+			buildPhases = (
+				08A05F891391546800226993 /* Sources */,
+				08A05F8A1391546800226993 /* Frameworks */,
+				08A05F8B1391546800226993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPFRemoteAlertExample;
+			productName = GPFRemoteAlertExample;
+			productReference = 08A05F8D1391546800226993 /* GPFRemoteAlertExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A05F841391546800226993 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 08A05F871391546800226993 /* Build configuration list for PBXProject "GPFRemoteAlertExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08A05F821391546800226993;
+			productRefGroup = 08A05F8E1391546800226993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A05F8C1391546800226993 /* GPFRemoteAlertExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A05F8B1391546800226993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A05F9C1391546900226993 /* InfoPlist.strings in Resources */,
+				08A05FA51391546900226993 /* MainWindow.xib in Resources */,
+				08A05FAB1391546900226993 /* GPFRemoteAlertExampleViewController.xib in Resources */,
+				08A05FB71391643700226993 /* example_alerts.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A05F891391546800226993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A05F9F1391546900226993 /* main.m in Sources */,
+				08A05FA21391546900226993 /* GPFRemoteAlertExampleAppDelegate.m in Sources */,
+				08A05FA81391546900226993 /* GPFRemoteAlertExampleViewController.m in Sources */,
+				08A05FB4139154A700226993 /* GPFRemoteAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08A05F9A1391546900226993 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A05F9B1391546900226993 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08A05FA31391546900226993 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A05FA41391546900226993 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		08A05FA91391546900226993 /* GPFRemoteAlertExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A05FAA1391546900226993 /* en */,
+			);
+			name = GPFRemoteAlertExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08A05FAC1391546900226993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08A05FAD1391546900226993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		08A05FAF1391546900226993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPFRemoteAlertExample/GPFRemoteAlertExample-Prefix.pch";
+				INFOPLIST_FILE = "GPFRemoteAlertExample/GPFRemoteAlertExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08A05FB01391546900226993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPFRemoteAlertExample/GPFRemoteAlertExample-Prefix.pch";
+				INFOPLIST_FILE = "GPFRemoteAlertExample/GPFRemoteAlertExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A05F871391546800226993 /* Build configuration list for PBXProject "GPFRemoteAlertExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A05FAC1391546900226993 /* Debug */,
+				08A05FAD1391546900226993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A05FAE1391546900226993 /* Build configuration list for PBXNativeTarget "GPFRemoteAlertExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A05FAF1391546900226993 /* Debug */,
+				08A05FB01391546900226993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08A05F841391546800226993 /* Project object */;
+}

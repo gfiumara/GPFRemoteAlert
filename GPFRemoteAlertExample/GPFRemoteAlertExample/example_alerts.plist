@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GPFRemoteAlertPropertyListVersion</key>
+	<integer>1</integer>
+	<key>module1</key>
+	<array>
+		<dict>
+			<key>cancelButton</key>
+			<dict>
+				<key>en</key>
+				<string>(English) Okay</string>
+			</dict>
+			<key>maxVersion</key>
+			<string>1.2</string>
+			<key>message</key>
+			<dict>
+				<key>en</key>
+				<string>(English) Check out a new feature.</string>
+			</dict>
+			<key>minVersion</key>
+			<string>1.0</string>
+			<key>title</key>
+			<dict>
+				<key>en</key>
+				<string>(English) New Feature</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>cancelButton</key>
+			<dict>
+				<key>en</key>
+				<string>(English) Okay</string>
+			</dict>
+			<key>maxVersion</key>
+			<string>1.1</string>
+			<key>message</key>
+			<dict>
+				<key>en</key>
+				<string>(English) This is a special message for version 1.1 only.</string>
+			</dict>
+			<key>minVersion</key>
+			<string>1.1</string>
+			<key>title</key>
+			<dict>
+				<key>en</key>
+				<string>(English) Version 1.1</string>
+			</dict>
+		</dict>
+	</array>
+	<key>module2</key>
+	<array>
+		<dict>
+			<key>cancelButton</key>
+			<dict>
+				<key>en</key>
+				<string>(English) Okay</string>
+			</dict>
+			<key>maxVersion</key>
+			<string>1.1</string>
+			<key>message</key>
+			<dict>
+				<key>en</key>
+				<string>(English) Welcome to Module 2!</string>
+			</dict>
+			<key>minVersion</key>
+			<string>1.0</string>
+			<key>title</key>
+			<dict>
+				<key>en</key>
+				<string>(English) Module 2</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
