@@ -17,7 +17,6 @@
 {
 	[versionLabel setText:[NSString stringWithFormat:@"Example App Version %0.1f",
 			       [[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"] floatValue]]];
-	[[GPFRemoteAlert sharedRemoteAlert] displayAlertsForModule:@"module1"];
 	[super viewDidLoad];
 }
 

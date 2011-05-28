@@ -6,6 +6,7 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+#import "GPFRemoteAlert.h"
 #import "GPFRemoteAlertExampleAppDelegate.h"
 
 #import "GPFRemoteAlertExampleViewController.h"
@@ -21,6 +22,7 @@
 {
 	self.window.rootViewController = self.viewController;
 	[self.window makeKeyAndVisible];
+	[GPFRemoteAlert sharedRemoteAlert];
 	
 	return YES;
 }
